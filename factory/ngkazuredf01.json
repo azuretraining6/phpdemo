@@ -1,0 +1,9 @@
+{
+	"name": "ngkazuredf01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aeb78e88-1c36-4d93-ac38-4138db3ff8bf",
+		"tenantId": "3b570f79-42e0-4a5c-96be-3f954d1e8623"
+	}
+}
