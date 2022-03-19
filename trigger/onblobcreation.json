@@ -1,0 +1,17 @@
+{
+	"name": "onblobcreation",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/datafactory/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/a0cb8ff3-966d-40ec-a3d5-e290d223c7d8/resourceGroups/MYCLASS/providers/Microsoft.Storage/storageAccounts/vmbootdiagstracnt",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
